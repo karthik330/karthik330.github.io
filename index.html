@@ -1,92 +1,224 @@
+<!doctype html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Karthikeyan S - Senior SDET specializing in browser automation, quality engineering, and modern test frameworks."
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Karthikeyan | Profile</title>
+    <script src="script.js" defer></script>
+    <title>Karthikeyan S | Senior SDET</title>
   </head>
 
   <body>
-    <header>
-      <h1>Karthikeyan</h1>
-      <p>Ruby on Rails Engineer</p>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-      <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <header class="site-header">
+      <div class="container header-content">
+        <a class="brand" href="#top" aria-label="Karthikeyan S home">KS<span>.</span></a>
+        <nav aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+        </nav>
+        <a class="header-link" href="#connect">Connect <span aria-hidden="true">↗</span></a>
+      </div>
     </header>
 
-    <main>
-      <section id="about">
-        <h2>About me</h2>
-        <p>
-          I build <strong>web applications</strong> and enjoy
-          <em>learning frontend development</em>.
-        </p>
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Senior Software Development Engineer in Test</p>
+            <h1 id="hero-title">Quality engineering for software that has to work.</h1>
+            <p class="hero-intro">
+              I am Karthikeyan S, a Senior SDET who builds dependable browser automation.
+              I work across Ruby, Selenium, Capybara, Playwright, JavaScript, and TypeScript
+              to help teams ship with confidence.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#experience">View experience <span aria-hidden="true">↓</span></a>
+              <a class="button button-secondary" href="#connect">Get in touch</a>
+            </div>
+            <dl class="hero-facts" aria-label="Career summary">
+              <div>
+                <dt>Focus</dt>
+                <dd>Test automation</dd>
+              </div>
+              <div>
+                <dt>Current stack</dt>
+                <dd>Playwright + TS</dd>
+              </div>
+              <div>
+                <dt>Based in</dt>
+                <dd>Bengaluru, India</dd>
+              </div>
+            </dl>
+          </div>
 
-        <img src="profile-photo.jpg" alt="Karthikeyan" />
-      </section>
-
-      <hr />
-
-      <section id="skills">
-        <h2>Skills</h2>
-
-        <h3>Technical skills</h3>
-        <ul>
-          <li>Ruby on Rails</li>
-          <li>JavaScript</li>
-          <li>Testing</li>
-        </ul>
-
-        <h3>Learning next</h3>
-        <ol>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Responsive design</li>
-        </ol>
-      </section>
-
-      <section id="projects">
-        <h2>Projects</h2>
-
-        <article>
-          <h3>Project One</h3>
-          <p>A short description of the project.</p>
-          <p>Built with <code>Ruby on Rails</code>.</p>
-          <a href="https://github.com/">View on GitHub</a>
-        </article>
-
-        <div>
-          <h3>More projects</h3>
-          <p>Add future project cards here.</p>
+          <div class="portrait-wrap">
+            <div class="portrait-frame">
+              <img src="assets/karthikeyan-profile.png" alt="Karthikeyan S" />
+            </div>
+            <p class="portrait-caption"><span></span> Available for meaningful quality challenges</p>
+            <div class="code-card" aria-hidden="true">
+              <span>quality_engineering</span>
+              <strong>01 / 01</strong>
+            </div>
+          </div>
         </div>
-
-        <p>
-          Currently learning:
-          <span>HTML, CSS, and JavaScript.</span>
-        </p>
       </section>
 
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>Want to get in touch?<br />Send me a message.</p>
+      <section class="section section-about" id="about" aria-labelledby="about-title">
+        <div class="container section-grid">
+          <div class="section-label"><span>01</span><p>About</p></div>
+          <div>
+            <h2 id="about-title">Automation should make quality visible, repeatable, and trusted.</h2>
+            <p class="large-copy">
+              My work sits at the intersection of engineering and quality. I have grown from
+              API and mobile automation into leading browser-test automation across mature web
+              applications, with a practical focus on test coverage, maintainability, and
+              developer confidence.
+            </p>
+            <div class="stat-row">
+              <div><strong>6+</strong><span>years in test automation</span></div>
+              <div><strong>2</strong><span>browser automation stacks</span></div>
+              <div><strong>4</strong><span>spoken languages</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <form>
-          <label for="name">Your name</label>
-          <input id="name" name="name" type="text" />
+      <section class="section section-experience" id="experience" aria-labelledby="experience-title">
+        <div class="container section-grid">
+          <div class="section-label"><span>02</span><p>Experience</p></div>
+          <div>
+            <h2 id="experience-title">A progression built around reliable automation.</h2>
+            <ol class="timeline">
+              <li>
+                <div class="timeline-meta"><time>2022 - 2026</time><span>Clearstack</span></div>
+                <article class="timeline-card current-role">
+                  <p class="card-kicker">Current role</p>
+                  <h3>Senior SDET</h3>
+                  <p>
+                    Developed and maintained browser automation using Selenium, Capybara, and
+                    Ruby. Over the past year, I have been migrating automation to Playwright
+                    with JavaScript and TypeScript to expand modern testing capability.
+                  </p>
+                  <ul class="tag-list" aria-label="Clearstack technologies">
+                    <li>Selenium</li><li>Capybara</li><li>Ruby</li><li>Playwright</li><li>JavaScript</li><li>TypeScript</li>
+                  </ul>
+                </article>
+              </li>
+              <li>
+                <div class="timeline-meta"><time>2021 - 2022</time><span>Aurigo Software Technologies</span></div>
+                <article class="timeline-card">
+                  <h3>SDET-2</h3>
+                  <p>
+                    Automated web applications with Selenium and Java, supported teams with an
+                    MVC application in C#, and contributed to hybrid mobile automation and unit
+                    testing.
+                  </p>
+                </article>
+              </li>
+              <li>
+                <div class="timeline-meta"><time>2020 - 2021</time><span>Aurigo Software Technologies</span></div>
+                <article class="timeline-card">
+                  <h3>SDET Intern</h3>
+                  <p>Started with API automation, learned Appium-based mobile automation, and owned assigned product modules with a 100% pass rate.</p>
+                </article>
+              </li>
+              <li>
+                <div class="timeline-meta"><time>2019</time><span>LRDE</span></div>
+                <article class="timeline-card">
+                  <h3>Engineering Intern</h3>
+                  <p>Explored artificial neural network applications for multimode radar scheduling and air-surveillance support.</p>
+                </article>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
 
-          <label for="message">Message</label>
-          <textarea id="message" name="message"></textarea>
+      <section class="section section-skills" id="skills" aria-labelledby="skills-title">
+        <div class="container section-grid">
+          <div class="section-label"><span>03</span><p>Toolkit</p></div>
+          <div>
+            <h2 id="skills-title">The tools behind the test strategy.</h2>
+            <div class="skills-grid">
+              <article><p class="card-kicker">Automation</p><h3>Selenium · Capybara · Playwright · Appium</h3></article>
+              <article><p class="card-kicker">Languages</p><h3>Ruby · JavaScript · TypeScript · Java · C#</h3></article>
+              <article><p class="card-kicker">Testing</p><h3>Web · API · Mobile · Unit testing</h3></article>
+              <article><p class="card-kicker">Tooling</p><h3>Git · Maven · TestNG</h3></article>
+            </div>
+          </div>
+        </div>
+      </section>
 
-          <button type="submit">Send message</button>
-        </form>
+      <section class="section section-projects" id="projects" aria-labelledby="projects-title">
+        <div class="container section-grid">
+          <div class="section-label"><span>04</span><p>Selected work</p></div>
+          <div>
+            <h2 id="projects-title">Building useful signals from test runs.</h2>
+            <article class="featured-project">
+              <div>
+                <p class="card-kicker">Featured project · 2021</p>
+                <h3>Build Health Monitor</h3>
+              </div>
+              <p>
+                A support web page that monitored each module’s health from its latest run,
+                compared results with previous runs, and presented an easy-to-read status view
+                for management.
+              </p>
+              <span class="project-index">01</span>
+            </article>
+            <div class="recognition">
+              <p class="card-kicker">Recognition</p>
+              <p><strong>Spot Award</strong> — Nominated by my manager for best performance in the team.</p>
+              <p><strong>Bravo Award</strong> — Nominated by peers for ownership and support in automation.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-education" aria-labelledby="education-title">
+        <div class="container section-grid">
+          <div class="section-label"><span>05</span><p>Background</p></div>
+          <div class="background-grid">
+            <div>
+              <h2 id="education-title">Education</h2>
+              <p class="education-name">B.E. in Electronics &amp; Communication Engineering</p>
+              <p>RV College of Engineering · 2016 - 2020</p>
+            </div>
+            <div>
+              <h2>Languages</h2>
+              <p>English · Hindi · Tamil <br />Kannada (professional working proficiency)</p>
+            </div>
+            <div>
+              <h2>Outside work</h2>
+              <p>Coding · Reading · Solving puzzles</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="connect" id="connect" aria-labelledby="connect-title">
+        <div class="container connect-content">
+          <p class="eyebrow">Let’s connect</p>
+          <h2 id="connect-title">Interested in building better software, together?</h2>
+          <div class="social-links">
+            <a href="https://github.com/karthik330" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://www.linkedin.com/in/karthikeyan-s-307a22136/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
       </section>
     </main>
 
-    <footer>
-      <p>© 2026 Karthikeyan</p>
-      <a href="mailto:you@example.com">Email me</a>
+    <footer class="site-footer">
+      <div class="container"><p>© 2026 Karthikeyan S</p><p>Designed and built with HTML, CSS &amp; JavaScript.</p></div>
     </footer>
   </body>
 </html>
